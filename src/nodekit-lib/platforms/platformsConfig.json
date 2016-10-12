@@ -1,0 +1,80 @@
+{
+    "ios": {
+        "hostos": [
+            "darwin"
+        ],
+        "parser_file": "../nodekit/metadata/ios_parser",
+        "handler_file": "../plugman/platforms/ios",
+        "template": "nodekit-cli-ios",
+        "version": "~1.0.0",
+        "deprecated": false
+    },
+    "osx": {
+        "hostos": [
+            "darwin"
+        ],
+        "parser_file": "../nodekit/metadata/osx_parser",
+        "handler_file": "../plugman/platforms/ios",
+        "template": "nodekit-cli-osx",
+        "version": "~1.0.0",
+        "deprecated": false
+    },
+    "android": {
+        "parser_file": "../nodekit/metadata/android_parser",
+        "handler_file": "../plugman/platforms/android",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-android.git",
+        "template": "nodekit-cli-android",
+        "version": "~1.0.0",
+        "deprecated": false
+    },
+    "ubuntu": {
+        "hostos": [
+            "linux"
+        ],
+        "parser_file": "../nodekit/metadata/ubuntu_parser",
+        "handler_file": "../plugman/platforms/ubuntu",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-ubuntu.git",
+        "template": "nodekit-cli-ubuntu",
+        "version": "~1.0.0",
+        "deprecated": false
+    },
+    "amazon-fireos": {
+        "parser_file": "../nodekit/metadata/amazon_fireos_parser",
+        "handler_file": "../plugman/platforms/amazon-fireos",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-amazon-fireos.git",
+        "template": "nodekit-fireos",
+        "version": "~1.0.0",
+        "deprecated": true
+    },
+    "wp8": {
+        "hostos": [
+            "win32"
+        ],
+        "parser_file": "../nodekit/metadata/wp8_parser",
+        "handler_file": "../plugman/platforms/wp8",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-wp8.git",
+        "version": "~1.0.0",
+        "template": "nodekit-cli-windows",
+        "altplatform": "wp",
+        "deprecated": true
+    },
+    "windows": {
+        "hostos": [
+            "win32"
+        ],
+        "parser_file": "../nodekit/metadata/windows_parser",
+        "handler_file": "../plugman/platforms/windows",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-windows.git",
+        "template": "nodekit-cli-windows",
+        "version": "~1.0.0",
+        "deprecated": false
+    },
+    "browser": {
+        "parser_file": "../nodekit/metadata/browser_parser",
+        "handler_file": "../plugman/platforms/browser",
+        "url": "https://git-wip-us.apache.org/repos/asf?p=nodekit-browser.git",
+        "template": "nodekit-cli-browser",
+        "version": "~1.0.0",
+        "deprecated": false
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "OffGrid Networks"
+  },
+  "bin": {
+    "create": "bin/create"
+  },
+  "description": "nodekit-cli-android release",
+  "directories": {},
+  "keywords": [
+    "android",
+    "nodekit"
+  ],
+  "license": "Apache-2.0",
+  "main": "bin/templates/nodekit/Api.js",
+  "name": "nodekit-android",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodekit-io/nodekit-platforms.git"
+  },
+  "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "version": "1.0.0"
+}

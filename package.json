@@ -1,0 +1,72 @@
+{
+  "name": "nodekit-cli-lib",
+  "version": "0.8.9",
+  "description": "Command-line helpers for NodeKit command line interface",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "require-self"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodekit-io/nodekit-cli-lib.git"
+  },
+  "keywords": [
+    "nodekit"
+  ],
+  "author": "OffGrid Networks",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nodekit-io/nodekit-cli-lib/issues"
+  },
+  "homepage": "https://github.com/nodekit-io/nodekit-cli-lib#readme",
+  "dependencies": {
+    "aliasify": "^2.0.0",
+    "cordova-js": "4.1.4",
+    "cordova-registry-mapper": "1.x",
+    "dep-graph": "1.1.0",
+    "elementtree": "0.1.6",
+    "glob": "^7.1.1",
+    "init-package-json": "^1.9.4",
+    "nopt": "^3.0.6",
+    "npm": "^3.10.x",
+    "opener": "1.4.2",
+    "plist": "^2.0.1",
+    "properties-parser": "^0.3.1",
+    "q": "^1.4.1",
+    "request": "2.75.0",
+    "semver": "^5.3.x",
+    "shelljs": "^0.7.4",
+    "tar": "2.2.1",
+    "underscore": "1.8.3",
+    "unorm": "1.4.1",
+    "valid-identifier": "0.0.1",
+    "xcode": "^0.8.9",
+    "ansi": "^0.3.1",
+    "bplist-parser": "^0.1.1",
+    "minimatch": "^3.0.3",
+    "osenv": "^0.1.3",
+    "dependency-ls": "^1.0.0",
+    "is-url": "^1.2.2",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "cordova-android": "5.2.x",
+    "cordova-common": "1.4.x",
+    "cordova-fetch": "1.0.x",
+    "cordova-ios": "4.2.x",
+    "cordova-lib": "6.3.x",
+    "cordova-osx": "4.0.x",
+    "cordova-serve": "^1.0.0",
+    "cordova-ubuntu": "4.3.x",
+    "cordova-windows": "4.4.x",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "nodekit-sample": "^0.8.3",
+    "require-self": "*"
+  }
+}
