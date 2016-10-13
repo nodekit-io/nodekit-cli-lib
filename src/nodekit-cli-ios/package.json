@@ -21,9 +21,9 @@
     "url": "git+https://github.com/nodekit-io/nodekit-cli-lib.git"
   },
   "scripts": {
-   "test": "echo \"Error: no test specified\" && exit 1"
-   },
-     "dependencies": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
     "ios-sim": "^5.0.8",
     "nopt": "^3.0.6",
     "plist": "^2.0.1",
@@ -33,5 +33,5 @@
     "underscore": "^1.8.3",
     "unorm": "^1.4.1"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

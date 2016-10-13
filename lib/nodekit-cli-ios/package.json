@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "OffGrid Networks"
+  },
+  "bin": {
+    "create": "bin/create"
+  },
+  "description": "nodekit-cli-ios release",
+  "directories": {},
+  "keywords": [
+    "android",
+    "nodekit"
+  ],
+  "license": "Apache-2.0",
+  "main": "bin/templates/scripts/nodekit/Api.js",
+  "name": "nodekit-ios",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodekit-io/nodekit-cli-lib.git"
+  },
+  "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+   },
+     "dependencies": {
+    "ios-sim": "^5.0.8",
+    "nopt": "^3.0.6",
+    "plist": "^2.0.1",
+    "q": "^1.4.1",
+    "shelljs": "^0.7.4",
+    "xcode": "^0.8.9",
+    "underscore": "^1.8.3",
+    "unorm": "^1.4.1"
+  },
+  "version": "1.0.0"
+}

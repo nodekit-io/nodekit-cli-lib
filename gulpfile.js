@@ -58,7 +58,8 @@ function map(src, dest, cb) {
        .pipe(replace(/gradle-2\.13-all.zip/ig, "gradle-2.14.1-all.zip"))
        .pipe(replace(/[\"\']\.\/src\//ig, "'./"))
        .pipe(replace(/\.\.\/package/ig, "../../package"))  
-      .pipe(replace(/\.\.\/NodeKitLib\/NodeKitLib\.xcodeproj/ig, "NodeKitLib/NodeKitLib.xcodeproj")) 
+       .pipe(replace(/\.\.\/NodeKitLib\/NodeKitLib\.xcodeproj/ig, "NodeKitLib/NodeKitLib.xcodeproj")) 
+       .pipe(replace(/path = NodeKitLib\.xcodeproj; sourceTree = NODEKITLIB;/ig, 'name = NodeKitLib.xcodeproj; path = NodeKitLib/NodeKitLib.xcodeproj; sourceTree = "<group>";')) 
        .pipe(f2.restore)
        .pipe(rename(function (path) {
         path.basename = indexify(path);
