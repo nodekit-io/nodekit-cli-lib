@@ -129,7 +129,7 @@
     <target name="jar" depends="-compile">
         <jar
             basedir="bin/classes"
-            excludes="io.nodekit/R.class,io.nodekit/R$*.class"
+            excludes="org/apache/nodekit/R.class,org/apache/nodekit/R$*.class"
             jarfile="nodekit-${version}.jar" />
     </target>
     
@@ -140,7 +140,7 @@
             destdir="javadoc-public"
             classpath="${sdk.dir}/platforms/${target}/android.jar">
             <packageset dir="src">
-                <include name="io.nodekit/**" />
+                <include name="org/apache/nodekit/**" />
             </packageset>
         </javadoc>
         <delete dir="javadoc-private" failonerror="false" />
@@ -149,13 +149,13 @@
             destdir="javadoc-private"
             classpath="${sdk.dir}/platforms/${target}/android.jar">
             <packageset dir="src">
-                <include name="io.nodekit/**" />
+                <include name="org/apache/nodekit/**" />
             </packageset>
         </javadoc>
     </target>
 
     <!-- tests for Java files -->
-    <property name="test.dir" location="test/io.nodekit" />
+    <property name="test.dir" location="test/org/apache/nodekit" />
 
     <path id="test.classpath">
         <!-- requires both junit and nodekit -->

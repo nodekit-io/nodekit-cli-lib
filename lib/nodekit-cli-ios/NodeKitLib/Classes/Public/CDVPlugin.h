@@ -24,7 +24,7 @@
 #import "CDVCommandDelegate.h"
 #import "CDVWebViewEngineProtocol.h"
 
-@interface UIView (io.nodekit_UIView_Extension)
+@interface UIView (io_nodekit_UIView_Extension)
 
 @property (nonatomic, weak) UIScrollView* scrollView;
 

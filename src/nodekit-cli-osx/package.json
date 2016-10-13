@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "OffGrid Networks"
+  },
+  "bin": {
+    "create": "bin/create"
+  },
+  "description": "nodekit-cli-osx release",
+  "directories": {},
+  "keywords": [
+    "android",
+    "nodekit"
+  ],
+  "license": "Apache-2.0",
+  "main": "bin/templates/scripts/nodekit/Api.js",
+  "name": "nodekit-osx",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodekit-io/nodekit-cli-lib.git"
+  },
+  "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+   },
+     "dependencies": {
+     "nopt": "^3.0.6",
+    "q": "^1.4.1",
+    "shelljs": "^0.5.3",
+    "underscore": "^1.8.3",
+    "unorm": "^1.4.1",
+    "xcode": "^0.8.3"
+  },
+  "version": "1.0.0"
+}

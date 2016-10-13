@@ -19,7 +19,7 @@
 
 #include <QtCore>
 
-// ported from https://github.com/apache/nodekit-android/blob/master/framework/src/io.nodekit/Whitelist.java
+// ported from https://github.com/apache/nodekit-android/blob/master/framework/src/org/apache/nodekit/Whitelist.java
 namespace NodeKitInternal {
     class WhiteList {
     public:

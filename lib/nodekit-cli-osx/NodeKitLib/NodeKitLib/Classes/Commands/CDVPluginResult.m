@@ -29,7 +29,7 @@
 @implementation CDVPluginResult
 @synthesize status, message, keepCallback, associatedObject;
 
-static NSArray* io.nodekit_CommandStatusMsgs;
+static NSArray* io_nodekit_CommandStatusMsgs;
 
 id messageFromArrayBuffer(NSData* data) {
     return @{
@@ -59,7 +59,7 @@ id messageFromMultipart(NSArray* theMessages) {
 }
 
 + (void) initialize {
-    io.nodekit_CommandStatusMsgs = @[
+    io_nodekit_CommandStatusMsgs = @[
             @"No result",
             @"OK",
             @"Class not found",

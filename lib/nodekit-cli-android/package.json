@@ -18,7 +18,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodekit-io/nodekit-platforms.git"
+    "url": "git+https://github.com/nodekit-io/nodekit-cli-lib.git"
   },
   "scripts": {
    "test": "echo \"Error: no test specified\" && exit 1"
