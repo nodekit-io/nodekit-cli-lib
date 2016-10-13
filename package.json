@@ -1,6 +1,6 @@
 {
   "name": "nodekit-cli-lib",
-  "version": "0.8.9",
+  "version": "0.8.10",
   "description": "Command-line helpers for NodeKit command line interface",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
