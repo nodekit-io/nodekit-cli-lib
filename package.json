@@ -1,6 +1,6 @@
 {
   "name": "nodekit-cli-lib",
-  "version": "0.8.11",
+  "version": "0.8.12",
   "description": "Command-line helpers for NodeKit command line interface",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nodekit-io/nodekit-cli-lib#readme",
   "dependencies": {
     "aliasify": "^2.0.0",
-    "cordova-js": "4.1.4",
+    "cordova-js": "4.x.x",
     "cordova-registry-mapper": "1.x",
     "dep-graph": "1.1.0",
     "elementtree": "0.1.6",
@@ -53,15 +53,15 @@
     "ios-sim": "^5.0.8"
   },
   "devDependencies": {
-    "cordova-android": "5.2.x",
-    "cordova-common": "1.4.x",
-    "cordova-fetch": "1.0.x",
-    "cordova-ios": "4.2.x",
-    "cordova-lib": "6.3.x",
-    "cordova-osx": "4.0.x",
-    "cordova-serve": "^1.0.0",
-    "cordova-ubuntu": "4.3.x",
-    "cordova-windows": "4.4.x",
+    "cordova-android": "6.x.x",
+    "cordova-common": "2.x.x",
+    "cordova-fetch": "1.x.x",
+    "cordova-ios": "4.x.x",
+    "cordova-lib": "6.x.x",
+    "cordova-osx": "4.x.x",
+    "cordova-serve": "^1.x.x",
+    "cordova-ubuntu": "4.x.x",
+    "cordova-windows": "4.x.x",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-filter": "^4.0.0",

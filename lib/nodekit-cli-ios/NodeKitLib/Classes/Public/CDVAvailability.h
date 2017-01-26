@@ -64,6 +64,8 @@
 #define __NODEKIT_4_1_1 40101
 #define __NODEKIT_4_2_0 40200
 #define __NODEKIT_4_2_1 40201
+#define __NODEKIT_4_3_0 40300
+#define __NODEKIT_4_3_1 40301
 /* coho:next-version,insert-before */
 #define __NODEKIT_NA 99999      /* not available */
 
@@ -76,7 +78,7 @@
  */
 #ifndef NODEKIT_VERSION_MIN_REQUIRED
     /* coho:next-version-min-required,replace-after */
-    #define NODEKIT_VERSION_MIN_REQUIRED __NODEKIT_4_2_1
+    #define NODEKIT_VERSION_MIN_REQUIRED __NODEKIT_4_3_1
 #endif
 
 /*
